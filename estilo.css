@@ -3,6 +3,10 @@
     display: none;
 }
 
+#opcao-bebidas:checked ~ .container-menus {
+    transform: translateX(-50%);
+}
+
 .menu {
     width: 100%;
 }
@@ -44,3 +48,19 @@ label {
         background-image: url(imagens/icone-bebidas.svg);
         right:0;
     }
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+.container-menus {
+    transform: translateX(0);
+    transition: transform 300ms ease;
+    width: 200%;
+}
+
+.container-menus .menu {
+    float: left;
+    width: 50%;
+}
