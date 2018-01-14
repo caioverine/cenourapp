@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+    version="1.0.0" id="org.caioverine.cenourapp">
+
+    <name>Só de Cenoura</name>
+
+    <description>
+        Menu do restuaurante    
+    </description>
+
+    <author>
+        Caio Vinícius
+    </author>
+
+    <icon src="icon.png"/>
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="splash.png" />
+</widget>
